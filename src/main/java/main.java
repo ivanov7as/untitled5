@@ -7,7 +7,7 @@ public class main {
         persArray[3] = new Person("Smirnov Vasiliy", "Tester", "smirnov@mailbox.com", 55555555, 30000, 41);
         persArray[4] = new Person("Kuznetsov Dmitriy", "programmer", "kuznetsov@mailbox.com", 33445566, 30000, 25);
         for (int i = 0; i < persArray.length; i++) {
-            if (persArray[i].getAge() >40) {
+            if (persArray[i].getAge() > 40) {
                 persArray[i].print();
 
             }
